@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.heading {
+    color: #403f3f;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+}
+/* faqs css */
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    background-color: #a6cc7a;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.faq-question:hover {
+    background-color: #477217;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* disclaimer page css */
+#disclaimer {  
+    padding: 2rem 1rem;
+
+}
+
+section#disclaimer {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+section#disclaimer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+section#disclaimer h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+section#disclaimer p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}

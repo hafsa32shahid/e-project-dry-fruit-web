@@ -1,0 +1,202 @@
+@media screen and (max-width:1498px){
+        .top-navbar .logo img{
+            width: 100%;
+            position: absolute;
+            top: 19px;
+            transform: translateX(-170px);
+        }
+    }
+
+@media screen and (max-width:1280px){
+/* shop catogory section */
+    .img-side-shop{
+        display: block;
+    }
+    .top-navbar .logo img{
+        width: 100%;
+        position: absolute;
+        top: 19px;
+        transform: translateX(-150px);
+    }
+}
+@media screen and (max-width: 1020px){
+    /* header section */
+    .catogories-options{
+        display: none;
+    }
+    .logo-content .contact-info{
+        display: none;
+    }
+     .top-navbar .left-icons {
+        width: 60%;
+    }
+    .left-icons .icons{
+        width: 10%;
+    }
+    .top-navbar .logo img{
+        width: 100%;
+        position: absolute;
+        top: 19px;
+        transform: translateX(-70px);
+    }
+    /* shop catogory section */
+    .shop-content{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 992px){ 
+    /* utility class */
+    .contain{
+        padding: 0px 20px;
+    }
+    .catogories-options{
+        display: none;
+    }
+    .logo-content .contact-info{
+        display: none;
+    }
+    .carousel-inner .carousel-item img{
+        height: 400px;
+    }
+
+    /* shop catogory section */
+    .img-side-shop{
+        display: none;
+    }
+    .shop-content{
+        display: flex;
+        justify-content: space-evenly;
+    }
+     .shop-content .card{
+       width: 22rem;
+    } 
+    .top-navbar .logo-content{
+        width: fit-content;
+        height: auto;
+    }
+    .top-navbar .logo img{
+        width: 100%;
+        position: absolute;
+        top: 19px;
+        transform: translateX(-120px);
+    }
+    /* banner sectiion */ 
+    .carousel-inner .carousel-item img{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 850px){
+   
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 0.9rem;
+    }
+    .header-section{
+        width: 100%;
+    }
+    .top-navbar{
+        background-color: white;
+    }
+    .nav1 .left-icons .search-bar{
+        display: none;
+    }
+
+    .nav1 .left-icons {
+       width: 70px;
+    }
+    .left-icons .icons{
+        width: 100%;
+    }
+    .nav1 .menu-bar{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .nav1 .menu-bar a{
+        font-size: 25px;
+    }
+
+    .top-navbar .logo img{
+        width: 80px;
+        height: 80px;
+        transform: translateX(-30px);
+    }
+    .left-icons i{
+        color: black;
+        font-size: 20px;
+    }
+    .nav-2 .nav-end{
+        background-color: #a6cc7a;
+    }
+    .nav-2 .nav-end .nav-links{
+        display: none;
+    }
+     .discount-offer{
+        display: inline;
+        color: white;
+    }
+    .discount-offer h3{
+        color: white;
+    }
+    /* banner sectiion */ 
+    .carousel-inner .carousel-item img{
+        height: 350px;
+    }
+    /* shop catogory section */
+    .shop-content .card{
+        width: 30rem;
+    }
+    .shop-content .card img{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 650px){
+    /* utility class */
+    .contain{
+       padding: 0px 10px;
+    }
+    /* header */
+    .left-icons i{
+        font-size: 15px;
+    }
+    .top-navbar .menu-bar{
+        font-size: 15px;
+    }
+    .banner .carousel{
+        display: none;
+    }
+    .small-mob-banner{
+        display: block;
+    }
+    /* shop catogory section */
+     .shop-content{
+        display: flex;
+        justify-content: center;
+    }
+    .shop-content .card{
+        width: 20rem;
+    }
+    /* two-bnner in one row offer */
+    .two-banner .banner-container{
+        flex-direction: column;
+    }
+    .banner-container .banner-two{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+ @media screen and (max-width: 450px) {
+    /* header section */
+   .nav1 .left-icons {
+    width: 30px;
+    margin-left: 55px;
+ }
+ }   

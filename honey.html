@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <style>
+        .logo{
+          transform: translateX(-70px);
+        }
+      </style>
+    <title>Navbar</title>
+    <style>
+        /* Additional media queries for responsiveness */
+        @media (max-width: 768px) {
+            .tophead {
+                font-size: 14px;
+            }
+            .left-icons, .logo-content {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .logo-content .contact-info {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            .product {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 576px) {
+            .tophead {
+                display: none;
+            }
+            .logo-content {
+                margin-top: 15px;
+            }
+            .nav-2 {
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-links, .discount-offer {
+                margin-top: 10px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header-section">
+        <div class="tophead">
+            <marquee behavior="scroll" direction="left">www.marudryfruit.com</marquee>
+        </div>
+        <nav class="nav1">
+            <div class="contain top-navbar">
+                
+                <div class="menu-bar" id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="wrapper">
+                    <div class="side-bar" id="side-bar">
+                        <div class="close-btn" id="close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="search-bar2-menu">
+                            <input type="text" placeholder="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <ul class="side-bar-links">
+                            <li><a href="" class="list-group-item list-group-item-action">Home</a></li>
+                            <li><a href="" class="list-group-item list-group-item-action">Shop</a></li>
+                            <li><a href="" class="list-group-item list-group-item-action">About Us</a></li>
+                            <li><a href="" class="list-group-item list-group-item-action">Contact Us</a></li>
+                            <li><a href="" class="list-group-item list-group-item-action">FAQS</a></li>
+                            <li><a href="" class="list-group-item list-group-item-action">Disclaimer</a></li>
+                        </ul>
+                        <div class="social-media-links">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-content" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                    <div class="logo">
+                        <a href="#"><img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" alt="logo" /></a>
+                    </div>
+                    <div class="contact-info">
+                        <div class="facebook">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="insta">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="contact-numb">Call Us (03xxxxxxxxx)</div>
+                    </div>
+                </div>
+                <div class="left-icons">
+                    <div class="search-bar">
+                        <input type="text" id="product-search" placeholder="Search products...">
+                    </div>
+                    <div class="icons">
+                        <div id="account-login">
+                            <a href="#"><i class="fa-duotone fa-solid fa-user"></i> </a>
+
+                        </div>
+                        <div id="add-to-cart">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-cart cart" id="cart">
+                    <span id="close-cart" class="close">&times;</span>
+                    <h2>Your Cart</h2>
+                    <ul class="cart-items"></ul>
+                    <div class="cart-total">
+                        Total: <span class="total-price">Rs0.00</span>
+                    </div>
+                    <button class="purchase-btn2">Purchase</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav-2">
+            <div class="contain nav-end">
+                <div class="selctor-of-dry-fruit-page">
+                    <div class="catogories-options" id="select">
+                        <i><i class="fa-solid fa-bars"></i></i>
+                        All Catogories
+                        <i class="fa-solid fa-caret-up carret2" id="carret"></i>
+                        <i class="fa-sharp fa-solid fa-caret-down carret1" id="carret" style="display: none;"></i>
+                    </div>
+                    <div class="option-of-catogories" id="options">
+                        <ul>
+                            <li><a href="Almonds.html"><img src="images-2/premium-almond.png" alt="" />&nbsp;&nbsp; Almond</a></li>
+                            <li><a href="Cashews.html"><img src="images=-2/cashew-with-skin.png" alt="" />&nbsp;&nbsp; Cashew</a></li>
+                            <li><a href="Pistachio.html"><img src="images-2/premium-pistachio.png" alt="" />&nbsp;&nbsp;Pistachio</a></li>
+                            <li><a href="apricot.html"><img src="images-2/organic-dry-apricot.png" alt="" />&nbsp;&nbsp; Dried Apricot</a></li>
+                            <li><a href="anjeer.html"><img src="images-2/dried-anjeer.png" alt="" />&nbsp;&nbsp; Dried Anjeer</a></li>
+                            <li><a href="Chilgoza.html"><img src="images-2/afghanistani-pine.png" alt="" />&nbsp;&nbsp; Pine nut chilghoza</a></li>
+                            <li><a href="dates.html"><img src="images-2/ajwa-dates.png" alt="" />&nbsp;&nbsp; Dried dates</a></li>
+                            <li><a href="peanut.html"><img src="images-2/parachinar-peanut.png" alt="" />&nbsp;Peanuts</a></li>
+                            <li><a href="Walnut.html"><img src="images-2/Hot__n_Sweet_Walnuts-removebg-preview.png" alt="" />&nbsp;&nbsp;Walnut soft shell</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="FAQS.html">FAQS</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+                <div class="discount-offer">
+                    <h3>🔥get upto 20% off, limited time only🔥</h3>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Product search bar added here -->
+   
+
+    <div class="container">
+        <aside class="sidebar">
+            <!-- Sidebar content -->
+            <h2>Categories</h2>
+            <ul>
+                <li><input type="checkbox" class="category-checkbox" data-category="pine-nuts"> Buy Pine Nuts Chi...</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="dried-anjeer-large">Anjeer</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="cashews"> Cashews Nut</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="rewari"> Chakwal Rewari</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="chilgoza"> Chilgoza</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="coconut"> Coconut Powder</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="dates"> Datesff</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="figs"> Dried Figs</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="mangoes"> Dry fruit</li>
+                <li><input type="checkbox" class="category-checkbox" data-category="dry-milk"> Dry Products</li>
+            </ul>
+        </aside>
+        <main class="main-product">
+            <!-- Product list -->
+            <div class="product" data-name="chilghoza" data-category="chilgoza">
+                <img src="images-2/honey-pure.jpg" alt="Product Name">
+                <div class="product-catalog">
+                <div class="product-card">
+                    <h3 class="product-name">Premium Pure Honey(250 gm)</h3>
+                    <span class="hori-light-text">From:</span><b>Rs</b><p class="price">1000</p>
+                    <div class="quantity-wrapper">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="100">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button></div>
+            </div>
+        
+
+            <div class="product" data-name="anjeer" data-category="dried-anjeer">
+                <img src="images-2/organi bee honey.jpg" alt="Product Name">
+                <div class="product-catalog">
+                <div class="product-card">
+                    <h3 class="product-name"> Organic Honey (250 gm)</h3>
+                    <span class="hori-light-text">From:</span><b>Rs</b><p class="price">1200</p>
+                    <div class="quantity-wrapper">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="100">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button></div>
+            </div>
+        
+
+            <div class="product" data-name="Chillgoza" data-category="dried-anjeer">
+                <img src="images-2/desi-organic-bee -honey.jpg" alt="Product Name">
+                <div class="product-catalog">
+                <div class="product-card">
+                    <h3 class="product-name">Desi Honey</h3>
+                    <span class="hori-light-text">From:</span><b>Rs</b><p class="price">1500
+
+                    </p>
+                    <div class="quantity-wrapper">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1" max="100">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button></div>
+            </div>
+            
+
+            <!-- Additional product elements here, each with a data-name and data-category attribute -->
+        </main>
+    </div>
+     <!-- newsletter -->
+     <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates and offers directly in your inbox.</p>
+        <form id="newsletter-form">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+     <!-- Double Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Catogories</h3>
+                <ul>
+                    <li><a href="gift-boxes.html">Gift Boxes</a></li>
+                    <li><a href="Almonds.html">Almonds</a></li>
+                    <li><a href="Cashews.html">Cashew</a></li>
+                    <li><a href="Pistachio.html">Pistachio</a></li>
+                    <li><a href="apricot.html">Dried Apricot</a></li>
+                    <li><a href="anjeer.html">Dried Anjeer</a></li>
+                    <li><a href="Chilgoza.html">Pine Nut Chilghoza</a></li>
+                    <li><a href="dates.html">Dried Dates</a></li>
+                    <li><a href="peanut.html">Peanut</a></li>
+                    <li><a href="Walnut.html">Walnut</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Our Shops</h3>
+                <ul>
+                    <li><strong>Main Branch:</strong> 123 Market Street, City A</li>
+                    <li><strong>Branch 2:</strong> 456 Central Avenue, City B</li>
+                    <li><strong>Branch 3:</strong> 789 Broadway Street, City C</li>
+                </ul>
+                <div class="footer-img">
+                    <img src="images-2/footer-shop.jpg" alt="">
+                  </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><strong>Phone:</strong> +1 234 567 890</li>
+                    <li><strong>Email:</strong> info@marudryfruit.com</li>
+                    <li><strong>Working Hours:</strong> Mon - Fri, 9 AM - 6 PM</li>
+                </ul>
+                <div class="logo">
+                    <a href="#"><img
+                      src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png"
+                      alt="logo"
+                    /></a>
+                  </div>
+                <div class="media-links">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Maru Dry Fruit. All rights reserved.</p>
+            <p>Designed by Maru Design Studio.</p>
+        </div>
+    </footer> 
+    
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+     <script src="javascript/search.js"></script> 
+     <script src="javascript/inter.js"></script>
+   
+
+    <script>
+    
+        document.getElementById('newsletter-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const email = document.getElementById('email').value;
+
+    if (email) {
+        alert(`Thank you for subscribing, ${email}!`);
+        document.getElementById('email').value = ''; // Clear the input field
+    } else {
+        alert('Please enter a valid email address.');
+    }
+   });
+    </script> 
+    
+</body>
+</html>

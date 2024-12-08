@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color : #a6cc7a;
+        }
+.cart {
+    margin-top: 20px;
+}
+.cart {
+    min-width: 350px;
+    min-height: 50vh;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    /* display: none; */
+}
+.cart .remove-cart-item{
+    background-color:var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart .remove-cart-item:hover {
+    background-color: var(--primary-color);
+}
+.item h2 {
+    margin: 0 0 10px;
+}
+#add-to-cart{
+    cursor: pointer;
+}
+.close-cart {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-cart:hover,
+.close-cart:focus {
+    color: black;
+    text-decoration: none;
+}
+/* The Close Button */
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Button styling */
+/* .card .side-cart .purchase-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 20px;
+} */
+.purchase-btn2  {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.remove-cart-item{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cart-total {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+/* quantity in cards for products */
+.product-catalog {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+}
+.product-catalog .product-card .price{
+    display: inline-block;
+}
+.quantity-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quantity-btn:hover {
+    background-color: #e1e1e1;
+}
+.add-to-cart-btn {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   margin: 10px 20px;
+}
+ /* New styles for the remove button */
+  .product-catalog .product-card .remove-cart-item {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-cart-item:hover {
+    background-color: #e53935;
+}
+
+    </style>
+</head>
+<body>
+    <!-- add that aftter cartb icon on navbar in headr section in nav1 -->
+    <div class="side-cart cart" id="cart">
+        <span id="close-cart" class="close">&times;</span>
+        <h2>Your Cart</h2>
+        <ul class="cart-items"></ul>
+        <div class="cart-total">
+            Total: <span class="total-price">Rs0.00</span>
+        </div>
+        <button class="purchase-btn2">Purchase</button>
+    </div>
+    <!-- add thet on card after image and set content according to card imaage -->
+    <div class="product-catalog">
+        <div class="product-card">
+          <h3 class="product-name">Raw Cashew(250 <br> gm)</h3>
+          <span class="hori-light-text">From:</span><b>Rs</b><p class="price">350</p>
+            <div class="quantity-wrapper">
+                <button class="quantity-btn minus">-</button>
+                <input type="number" class="quantity-input" value="1" min="1" max="100">
+                <button class="quantity-btn plus">+</button>
+            </div>
+           </div> 
+        <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+  </div>
+  <script src="javascript/account.js"></script>
+</body>
+</html>

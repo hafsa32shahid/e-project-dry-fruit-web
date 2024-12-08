@@ -1,0 +1,15 @@
+.nav-1 .top-navbar .logo-content{
+    width: 35%;
+    position: relative;
+    justify-content: space-between;
+}
+.logo-content .logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.logo img{
+    width: 100%;
+    top: 15px;
+    transform: translateX(-150px);
+}

@@ -1,0 +1,111 @@
+:root{
+    --primary-color : #a6cc7a;
+    --secondary-color: #424040;
+    --text-color: #403f3f;
+    --text-sec-color: rgb(98, 98, 98);
+    --shadow-color: #696867;
+}
+.container-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 255, 240);
+    flex-direction: column;
+    position: relative;
+}.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.text img{
+   width: 100px;
+   
+}
+.content-box{
+    width: 500px;
+    height: 550px;
+    background-color: rgb(252, 255, 255);
+    box-shadow: 1px 1px 5px 2px var(--shadow-color);
+    /* opacity: 0.9; */
+    border-radius: 20px;
+}
+.content-box .card-account{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+/* .card-account h2::after{
+    content: '';
+   width: 30px;
+   height: 4px;
+   border-radius: 3px;
+   background-color: var(--primary-color);
+   position: absolute;
+   bottom: -12px;
+   left: 50%;
+  transform: translateX(-50%);
+} */
+.input-group .input-field{
+   background-color: rgb(204, 204, 204);
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   max-height: 65px;
+   transition: max-height 0.5s;
+   overflow: hidden;
+   
+ }
+ .input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 18px 15px;
+ }
+ .input-field i {
+    margin-left: 15px;
+    color: var(--text-color);
+ }
+ .card-account form p{
+    text-align: left;
+ }
+ .card-account form p a{
+   color: var(--shadow-color);
+ }
+ form .btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form .btn-field button{
+    flex-basis: 48%;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn-field button.disable{
+    background-color: rgb(189, 189, 189);
+    color: var(--text-color);
+}
+.error {
+    color: red;
+}
+#title{
+    margin-bottom: 20px;
+}

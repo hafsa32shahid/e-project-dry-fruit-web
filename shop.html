@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Fruit Shop</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />    
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header-section">
+        <div class="tophead">
+          <marquee behavior="scroll" direction="left"
+            >www.marudryfruit.com</marquee
+          >
+        </div>
+        <nav class="nav1">
+          
+          <div class="contain top-navbar">
+            <div class="menu-bar" id="menu">
+             <i class="fa-solid fa-bars"></i>
+            </div>
+           <div class="wrapper">
+            <div class="side-bar" id="side-bar">
+              <div class="close-btn" id="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <div class="search-bar2-menu">
+                <input type="text" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <ul class="side-bar-links ">
+                <li><a href="" class="list-group-item list-group-item-action">Home</a></li>
+                <li><a href="" class="list-group-item list-group-item-action">Shop</a></li>
+                <li><a href="" class="list-group-item list-group-item-action">About Us</a></li>
+                <li><a href="" class="list-group-item list-group-item-action">Contact Us</a></li>
+                <li><a href="" class="list-group-item list-group-item-action">FAQS</a></li>
+                <li><a href="" class="list-group-item list-group-item-action">Disclaimer</a></li>
+              </ul>
+              <div class="social-media-links">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+           </div>
+            <div class="logo-content" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+              <div class="logo">
+                <a href="#"><img
+                  src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png"
+                  alt="logo"
+                /></a>
+              </div>
+              <div class="contact-info">
+                <div class="facebook">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="insta">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="contact-numb">Call Us (03xxxxxxxxx)</div>
+              </div>
+            </div>
+            
+            <div class="left-icons">
+              <div class="search-bar">
+                <input type="text" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="icons">
+              <div id="account-login">
+                <a href="account-login.html"><i class="fa-duotone fa-solid fa-user"></i></a>
+              </div>
+              <div id="add-to-cart" >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            <div class="side-cart cart" id="cart">
+              <span id="close-cart" class="close">&times;</span>
+              <h2>Your Cart</h2>
+              <ul class="cart-items"></ul>
+              <div class="cart-total">
+                  Total: <span class="total-price">Rs0.00</span>
+              </div>
+              <button class="purchase-btn2">Purchase</button>
+          </div>
+            </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="nav-2">
+          <div class="contain nav-end">
+            <div class="selctor-of-dry-fruit-page">
+              <div class="catogories-options" id="select">
+                <i><i class="fa-solid fa-bars"></i></i>
+                <span>All Catogories</span>
+                <i class="fa-solid fa-caret-up carret2" id="carret" ></i>
+                <i class="fa-sharp fa-solid fa-caret-down carret1" id="carret" style="display: none;"></i>
+              </div>
+              <div class="option-of-catogories" id="options">
+                <ul>
+                  <li>
+                    <li>
+                        <a href="gift-boxes.html"
+                          ><img
+                            src="images-2/dry-fruit-gift-box-6portion (2).png"
+                            alt=""
+                          />
+                          &nbsp;&nbsp;Gift Boxes</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Almonds.html"
+                          ><img src="images-2/premium-almond.png" alt="" />&nbsp;&nbsp; Almond</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Cashews.html"
+                          ><img src="images-2/raw-kaju.png" alt="" />&nbsp;&nbsp; Cashew</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Pistachio.html"
+                          ><img src="images-2/premium-pistachio.png" alt="" />
+                          &nbsp;&nbsp;Pistachio</a
+                        >
+                      </li>
+                      <li>
+                        <a href="apricot.html"
+                          ><img src="images-2/organic-dry-apricot.png" alt="" />&nbsp;&nbsp; Dried
+                          Apricot</a
+                        >
+                      </li>
+                      <li>
+                        <a href="anjeer.html"
+                          ><img src="images-2/dried-anjeer.png" alt="" />&nbsp;&nbsp; Dried
+                          Anjeer</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Chilgoza.html"
+                          ><img src="images-2/afghanistani-pine.png" alt="" />&nbsp;&nbsp; Pine
+                          nut chilghoza</a
+                        >
+                      </li>
+                      <li>
+                        <a href="dates.html"
+                          ><img src="images-2/ajwa-dates.png" alt="" />&nbsp;&nbsp; Dried dates</a
+                        >
+                      </li>
+                      <li>
+                        <a href="peanut.html"
+                          ><img src="images-2/parachinar-peanut.png" alt="" />
+                          &nbsp;Peanuts</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Walnut.html"
+                          ><img
+                            src="images-2/Hot__n_Sweet_Walnuts-removebg-preview.png"
+                            alt=""
+                          />&nbsp;&nbsp;Walnut soft shell</a
+                        >
+                      </li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="FAQS.html">FAQS</a></li>
+              <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+            <div class="discount-offer">
+              <h3>🔥get upto 20% off, limited time only🔥</h3>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <!-- <header>
+        <h1>Maru Dry Fruit Shop</h1>
+    </header> -->
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Special Offers</h2>
+            <ul>
+                <li><strong>20% Off</strong> on Almonds</li>
+                <li><strong>Buy 1 Get 1 Free</strong> on Cashews</li>
+                <li><strong>Free Shipping</strong> on Orders Over $50</li>
+                <li><strong>10% Off</strong> on All Orders Above $100</li>
+            </ul>
+            <div class="sidebar-card">
+                <img src="images-2/austrailian-almond.png" alt="Product Image" class="sidebar-card-image">
+                <div class="sidebar-card-content">
+                    <h3>Special Offer!</h3>
+                    <p>Get 20% off on Australian Almonds (250 gm).</p>
+                    <button class="sidebar-card-button">Shop Now</button>
+                </div>
+            </div>
+            <div class="customer-reviews">
+                <h3>Customer Reviews</h3>
+                <div class="review">
+                    <p class="review-text">"Great quality and fast delivery!"</p>
+                    <div class="review-author">
+                        <span>- John Doe</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="review-text">"The almonds are fresh and tasty."</p>
+                    <div class="review-author">
+                        <span>- Jane Smith</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="review-text">"I love the packaging and the service."</p>
+                    <div class="review-author">
+                        <span>- Mike Johnson</span>
+                    </div>
+                </div>
+                <!-- Add more reviews as needed -->
+            </div>
+               <div class="sidebar-card">
+                <img src="images-2/raw-cashew.png" alt="Product Image" class="sidebar-card-image">
+                <div class="sidebar-card-content">
+                    <h3>Special Offer!</h3>
+                    <p>Get 20% off on Australian Almonds (250 gm).</p>
+                    <button class="sidebar-card-button">Shop Now</button>
+               </div>
+                <div class="customer-reviews">
+                <h3>Customer Reviews</h3>
+                <div class="review">
+                    <p class="review-text">"Great quality and fast delivery!"</p>
+                    <div class="review-author">
+                        <span>- John Doe</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="review-text">"The almonds are fresh and tasty."</p>
+                    <div class="review-author">
+                        <span>- Jane Smith</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="review-text">"I love the packaging and the service."</p>
+                    <div class="review-author">
+                        <span>- Mike Johnson</span>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="review-text">" love the tasty nuts of yours."</p>
+                    <div class="review-author">
+                        <span>- jhonny</span>
+                    </div>
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <div class="customer-reviews">
+                        <h3>Customer Reviews</h3>
+                        <div class="review">
+                            <p class="review-text">"Great quality and fast delivery!"</p>
+                            <div class="review-author">
+                                <span>- John Doe</span>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <p class="review-text">"The almonds are fresh and tasty."</p>
+                            <div class="review-author">
+                                <span>- Jane Smith</span>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <p class="review-text">"I love the packaging and the service."</p>
+                            <div class="review-author">
+                                <span>- Mike Johnson</span>
+                            </div>
+                        </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="customer-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <p class="review-text">"Great quality and fast delivery!"</p>
+                        <div class="review-author">
+                            <span>- John Doe</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"The almonds are fresh and tasty."</p>
+                        <div class="review-author">
+                            <span>- Jane Smith</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <p class="review-text">"I love the packaging and the service."</p>
+                        <div class="review-author">
+                            <span>- Mike Johnson</span>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+                <div class="healthy-life">
+                    <h3>Healthy Life with Nuts & Fruits</h3>
+                    <div class="info-section">
+                        <h4>Almonds</h4>
+                        <p>Almonds are rich in healthy fats, fiber, protein, magnesium, and vitamin E. They help lower blood sugar levels, reduce blood pressure, and lower cholesterol levels.</p>
+                    </div>
+                    <hr>
+                    <div class="info-section">
+                        <h4>Walnuts</h4>
+                        <p>Walnuts are an excellent source of omega-3 fatty acids, which are beneficial for heart health. They also support brain health and may help reduce inflammation.</p>
+                    </div>
+                    <hr>
+                    <div class="info-section">
+                        <h4>Dates</h4>
+                        <p>Dates are high in fiber and antioxidants. They promote digestive health, provide a natural energy boost, and support bone health due to their high mineral content.</p>
+                    </div>
+                    <hr>
+                    <div class="info-section">
+                        <h4>Cashews</h4>
+                        <p>Cashews are rich in heart-healthy fats, protein, and essential minerals like copper, magnesium, and manganese. They support healthy brain function and immune health.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="healthy-info">
+                <h3>Healthy Living with Nuts & Fruits</h3>
+                <div class="info-section">
+                    <h4>Benefits of Nuts</h4>
+                    <ul>
+                        <li><strong>Heart Health:</strong> Nuts are rich in healthy fats, which can help lower bad cholesterol levels.</li>
+                        <li><strong>Weight Management:</strong> Despite being calorie-dense, nuts can aid in weight management by promoting fullness.</li>
+                        <li><strong>Rich in Nutrients:</strong> Nuts are packed with vitamins, minerals, and antioxidants essential for overall health.</li>
+                    </ul>
+                </div>
+                <div class="info-section">
+                    <h4>Benefits of Fruits</h4>
+                    <ul>
+                        <li><strong>Rich in Vitamins:</strong> Fruits are excellent sources of essential vitamins like Vitamin C and A.</li>
+                        <li><strong>Hydration:</strong> Many fruits have high water content, helping you stay hydrated.</li>
+                        <li><strong>Fiber Content:</strong> The fiber in fruits aids digestion and promotes gut health.</li>
+                    </ul>
+                </div>
+                <div class="info-section">
+                    <h4>Healthy Living Tips</h4>
+                    <ul>
+                        <li><strong>Balanced Diet:</strong> Incorporate a variety of nuts and fruits into your diet to ensure a wide range of nutrients.</li>
+                        <li><strong>Snack Smart:</strong> Choose nuts and fruits as snacks to keep energy levels stable throughout the day.</li>
+                        <li><strong>Stay Active:</strong> Pair a nutritious diet with regular physical activity for optimal health.</li>
+                    </ul>
+                </div>
+            </div>
+                <div class="partners">
+                    <h3>Our Delivery Partners</h3>
+                    <div class="scrolling-images">
+                        <div class="image-wrapper">
+                            <img src="images-2/daraz-part.png" alt="Partner 1">
+                            <img src="images-2/partner-2.png" alt="Partner 2">
+                            <img src="images-2/tcs-part.png" alt="Partner 3">
+                            <img src="images-2/leo-pards-part.png" alt="Partner 4">
+                            <!-- Add more images as needed -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more reviews as needed -->
+        </aside>
+
+        <!-- Main Content -->
+        <section class="main-content">
+            <!-- <h1>Welcome to Maru Dry Fruit Shop</h1>
+        <p>Your one-stop shop for the finest quality dry fruits</p> -->
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/ajwa-dates.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">austrailian Almond(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/american-cashew.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">American-Cashew(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/cashew-with-skin.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name"> cashew with Skin(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dried-anjeer-large.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">dried-anjeer-large(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/gol-dry-apricot.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Gol Dry Apricot(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/rewari-peanut.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Rewari Peanut(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/organic-dried-apricot.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count"></span>(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Organic Dried Apricot(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/pumpkin-seeds.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Pumkin Seeds(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/roasted-cashew.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Roasted Cshew(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dry-cherry.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Dry Cherry(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/afghanistani-pine.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Afghanistani Pine(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dry-zahidi-dates.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Dry zahidi(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dry-fruit-gift-box-6portion (2).png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">1kg Dry Fruit Gift Boxe</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/peanut-chikki-jar.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Peanut Chikki Jar(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/high-quality-peanut.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">High Quality Peanut(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/Hot__n_Sweet_Walnuts-removebg-preview.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Without Sell Premium Walnut(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/chocolate.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count"></span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Chocolate(120 reviews)(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dry-fruit-gift-box-9portion.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Dry Fruit Gift box 9 portion(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/badam-giri.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Badam Giri(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/gb-3-jar.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Gift Box Jar(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/premium-pistachio.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Premium Pistachio(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/roasted-chilghoza.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Roasted Chilghoza(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/mabroom-dates.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Mabroom Dates(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/roasted-salted-cashew.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Roasted Salted Cashew(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/raw-kaju.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Raw Kaju(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dried-black-cherry.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Dried Black Cherry(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/irani-mazafati-dates.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Irani Mazafati Date(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/iranian-dried-figs.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Iranian Dried Figs(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/sahreefa-dates.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Shareefa Dates(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/honey-pure.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Pure Honey(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/american-pistachio.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">American Pistachio(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/premium-aakhrot.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Premium Akhrot(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/brazil-nuts.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Brazil Nuts(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/organi bee honey.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Organic Honey Bee(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/coconut-pow.jpg" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Coconut Powder(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png" class="logo-img" alt="">
+                    <img src="images-2/dry-fig-anjeer.png" alt="Image 1">
+                    <span class="hori-light-text">Dry Fruits</span>
+                    <div class="review">
+                        <p class="rating">
+                            ★★★★☆
+                            <span class="review-count">(120 reviews)</span>
+                        </p>
+                    </div>
+                    </a>
+                     <div class="product-catalog">
+                      <div class="product-card">
+                        <h3 class="product-name">Dry Fig Anjeer(250 gm)</h3>
+                        <span class="hori-light-text">From:</span><b>Rs</b><p class="price">299</p>
+                          <div class="quantity-wrapper">
+                              <button class="quantity-btn minus">-</button>
+                              <input type="number" class="quantity-input" value="1" min="1" max="100">
+                              <button class="quantity-btn plus">+</button>
+                          </div>
+                          
+                      </div>
+                      <button class="add-to-cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                      </div>
+            </div>
+        </section>
+    </div>
+    <!-- newsletter -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates and offers directly in your inbox.</p>
+        <form id="newsletter-form">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+     <!-- Double Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Catogories</h3>
+                <ul>
+                    <li><a href="gift-boxes.html">Gift Boxes</a></li>
+                    <li><a href="Almonds.html">Almonds</a></li>
+                    <li><a href="Cashews.html">Cashew</a></li>
+                    <li><a href="Pistachio.html">Pistachio</a></li>
+                    <li><a href="apricot.html">Dried Apricot</a></li>
+                    <li><a href="anjeer.html">Dried Anjeer</a></li>
+                    <li><a href="Chilgoza.html">Pine Nut Chilghoza</a></li>
+                    <li><a href="dates.html">Dried Dates</a></li>
+                    <li><a href="peanut.html">Peanut</a></li>
+                    <li><a href="Walnut.html">Walnut</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Our Shops</h3>
+                <ul>
+                    <li><strong>Main Branch:</strong> 123 Market Street, City A</li>
+                    <li><strong>Branch 2:</strong> 456 Central Avenue, City B</li>
+                    <li><strong>Branch 3:</strong> 789 Broadway Street, City C</li>
+                </ul>
+                <div class="footer-img">
+                    <img src="images-2/footer-shop.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><strong>Phone:</strong> +1 234 567 890</li>
+                    <li><strong>Email:</strong> info@marudryfruit.com</li>
+                    <li><strong>Working Hours:</strong> Mon - Fri, 9 AM - 6 PM</li>
+                </ul>
+                
+                <div class="logo">
+                    <a href="#"><img
+                      src="images-2/WhatsApp_Image_2024-08-03_at_12.21.27_PM-removebg-preview.png"
+                      alt="logo"
+                    /></a>
+                  </div>
+                <div class="media-links">
+                    <h3>Follow Us</h3>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Maru Dry Fruit. All rights reserved.</p>
+            <p>Designed by Maru Design Studio.</p>
+        </div>
+    </footer>   
+    <script src="javascript/interactive.js"></script>
+    <script src="javascript/shop.js"></script>
+</body>
+</html>
